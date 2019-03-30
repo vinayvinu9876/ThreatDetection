@@ -1,7 +1,7 @@
 #include<SoftwareSerial.h>
 
 int FiresensorPin = A0; // select the input pin for the LDR  Fire sensor
-int smokeA0 = A5;
+int smokeA0 = A5;  //input pin for gas sensor
 
 int danger_led = 9; // Output pin for Danger LED
 int okay_led = 4; // Output pin for OkayLED
