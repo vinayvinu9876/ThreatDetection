@@ -1,4 +1,4 @@
-//#include<SoftwareSerial.h>
+#include<SoftwareSerial.h>
 
 int FiresensorPin = A0; // select the input pin for the LDR  Fire sensor
 int smokeA0 = A5;
